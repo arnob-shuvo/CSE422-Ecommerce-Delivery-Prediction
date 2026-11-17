@@ -20,7 +20,7 @@ The public **E-Commerce Shipping** dataset, with about 11,000 orders. It has 10 
 
 The target is the delivery status: on time or late.
 
-The dataset is not included here. Download it and place `E-commerce Shipping Dataset.csv` next to the notebook. The notebook was run on Google Colab, so it reads the file from `/content/`.
+The dataset is included as `E-commerce Shipping Dataset.csv`. It was provided through the course and is a publicly available Kaggle dataset; all credit goes to its original authors. The notebook was run on Google Colab, so it reads the file from `/content/`. Change the path in `read_csv` to run it locally.
 
 ## What the notebook does
 
@@ -47,6 +47,7 @@ The Neural Network gave the best test accuracy. The features carry only a weak s
 | File | Contents |
 |---|---|
 | `notebook.ipynb` | Full pipeline with outputs and plots |
+| `E-commerce Shipping Dataset.csv` | The dataset used |
 | `docs/Project_Report.pdf` | Submitted project report. My teammate's student ID is blacked out. |
 
 ## Team
